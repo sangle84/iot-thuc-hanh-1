@@ -1,6 +1,5 @@
 # Buổi thực hành 1 - MQTT
 
-## 0. Thông Tin Sinh Viên
 | Họ và Tên | Mã Sinh Viên |
 | :--- | :--- |
 | **Nguyễn Quốc Thịnh** | `B23DCCN790` |
