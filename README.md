@@ -1,27 +1,27 @@
-# Buoi thuc hanh MQTT
+# Buổi thực hành 1 - MQTT
 
 ## 1. Broker
-- `broker.emqx.io:1883`, khong auth.
-- Doi broker: `MQTT_BROKER=test.mosquitto.org`.
-- Cai lib: `pip install paho-mqtt`
+- `broker.emqx.io:1883`, không auth.
+- Đổi broker: `MQTT_BROKER=test.mosquitto.org`.
+- Cài lib: `pip install paho-mqtt`
 
-## 2. Cach chay
+## 2. Cách chạy
 ```text
-# Bai 1
+# Bài 1
 python subscriber_bai1.py   # terminal 1
 python publisher_bai1.py    # terminal 2
 
-# Bai 2
+# Bài 2
 python monitor_subscriber_bai2.py  # terminal 1
 python sensor_publisher_bai2.py    # terminal 2
 
-# Bai 3
+# Bài 3
 python device_bai3.py      # terminal 1
 python controller_bai3.py  # terminal 2
 ```
 
-## 3. Ket qua dat duoc
-Bai 1 - Publisher:
+## 3. Kết quả đạt được
+Bài 1 - Publisher:
 ```text
 Nhap ho ten: Nguyen Van A
 Nhap ma SV: B23DCCN001
@@ -30,7 +30,7 @@ Da ket noi broker.emqx.io:1883
 Da gui -> iot/lab/message: Xin chao tu client Python MQTT - B23DCCN001 - Nguyen Van A
 ```
 
-Bai 1 - Subscriber:
+Bài 1 - Subscriber:
 ```text
 Nhan duoc message:
 Topic: iot/lab/message
@@ -38,7 +38,7 @@ Payload: Xin chao tu client Python MQTT - B23DCCN001 - Nguyen Van A
 Time: 10:15:20
 ```
 
-Bai 2 - Monitor:
+Bài 2 - Monitor:
 ```text
 Device: sensor01
 Temperature: 36.1 C
@@ -47,7 +47,7 @@ CANH BAO: Nhiet do cao
 CANH BAO: Do am thap
 ```
 
-Bai 3 - Controller:
+Bài 3 - Controller:
 ```text
 Nhap lenh: ON
 Da gui lenh ON toi light01
