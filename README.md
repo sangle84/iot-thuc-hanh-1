@@ -1,8 +1,10 @@
 # Buổi thực hành 1 - MQTT
 
-Nguyễn Quốc Thịnh B23DCCN790
-Lê Tiến Sang B23DCCN710
-
+## 0. Thông Tin Sinh Viên
+| Họ và Tên | Mã Sinh Viên |
+| :--- | :--- |
+| **Nguyễn Quốc Thịnh** | `B23DCCN790` |
+| **Lê Tiến Sang** | `B23DCCN710` |
 
 ## 1. Broker
 - `broker.emqx.io:1883`, không auth.
